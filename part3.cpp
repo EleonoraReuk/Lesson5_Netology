@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 int main() {
 	const int rows = 3, columns = 6;
@@ -7,7 +7,7 @@ int main() {
 		{3, 5, 13, 36, 56, 87},
 		{1, 9, 14, 29, 46, 78}
 	};
-	std::cout << "Ìàññèâ: " << std::endl;
+	std::cout << "ÐœÐ°ÑÑÐ¸Ð²: " << std::endl;
 	for (int row = 0; row < rows; row++) {
 		for (int column = 0; column < columns; column++) {
 			std::cout << arr[row][column] << '\t';
@@ -34,7 +34,8 @@ int main() {
 		}
 	}	
 	}
-	std::cout << "Èíäåêñ ìèíèìàëüíîãî ýëåìåíòà: " << minRow << " " << minColumn << std::endl;
-	std::cout << "Èíäåêñ ìàêñèìàëüíîãî ýëåìåíòà: " << maxRow << " " << maxColumn << std::endl;
+	std::cout << "Ð˜Ð½Ð´ÐµÐºÑ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°: " << minRow << " " << minColumn << std::endl;
+	std::cout << "Ð˜Ð½Ð´ÐµÐºÑ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°: " << maxRow << " " << maxColumn << std::endl;
 	return 0;
-}*/
+
+}
