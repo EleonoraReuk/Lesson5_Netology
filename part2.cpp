@@ -7,7 +7,7 @@ int main() {
 	int min = arr[0];
 	int max = arr[0];
 
-	std::cout << "ìàññèâ: ";
+	std::cout << "ĞœĞ°ÑÑĞ¸Ğ²: ";
 	for (int i = 0; i < size; i++) {
 		std::cout << arr[i] << " ";
 		if (arr[i] < min) {
@@ -17,6 +17,7 @@ int main() {
 			max = arr[i];
 		}
 	}
-	std::cout << std::endl << "Ìèíèìàëüíûé ıëåìåíò: " << min << std::endl;
-	std::cout << "Ìàêñèìàëüíûé ıëåìåíò: " << max << std::endl;
+	std::cout << std::endl << "ĞœĞ¸Ğ½Ğ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << min << std::endl;
+	std::cout << "ĞœĞ°ĞºÑĞ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << max << std::endl;
 }*/
+
