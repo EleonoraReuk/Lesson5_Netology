@@ -6,7 +6,7 @@ int main() {
 	const int size{ 10 };
 	int integers[size] = { 110, 34, 25, 12, 22, 11, 90, 53, 8, 67 };
 
-	std::cout << "Original array:   \t";
+	std::cout << "Массив до сортировки:   \t";
 	for (int element{}; element < size; ++element) 
 	{
 		std::cout << integers[element] << '\t';
@@ -25,9 +25,10 @@ int main() {
 		}
 	}
 
-	std::cout << "\n\n\nSorted array:   \t";
+	std::cout << "\n\n\nМассив после сортировки:   \t";
 	for (int element{}; element < size; ++element) 
 	{
 		std::cout << integers[element] << '\t';
 	}
+
 }
