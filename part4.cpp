@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 int main() {
 	const int size{ 10 };
 	int integers[size] = { 110, 34, 25, 12, 22, 11, 90, 53, 8, 67 };
@@ -30,5 +28,6 @@ int main() {
 	{
 		std::cout << integers[element] << '\t';
 	}
-
+	return 0;
 }
+
