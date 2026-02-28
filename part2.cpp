@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 int main() {
 	const int size = 10;
@@ -19,5 +19,6 @@ int main() {
 	}
 	std::cout << std::endl << "Минимальный элемент: " << min << std::endl;
 	std::cout << "Максимальный элемент: " << max << std::endl;
-}*/
+}
+
 
