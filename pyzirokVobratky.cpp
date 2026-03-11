@@ -10,18 +10,18 @@ int main() {
 		std::cout << integers[element] << '\t';
 	}
 
-	for (int i = 0; i < size - 1; i++)
-	{
-		for (int j = 0; j < size - i - 1; ++j)
-		{
-			if (integers[j] < integers[j + 1])
-			{
-				int temporary{ integers[j] };
-				integers[j] = integers[j + 1];
-				integers[j + 1] = temporary;
-			}
-		}
-	}
+    for (int i = 0; i < size - 1; i++)
+    {
+        for (int j = size - 1; j > i; --j)
+        {
+            if (integers[j] > integers[j - 1])
+            {
+                int temporary{ integers[j] };
+                integers[j] = integers[j - 1];
+                integers[j - 1] = temporary;
+            }
+        }
+    }
 
 	std::cout << "\n\n\nМассив после сортировки:   \t";
 	for (int element{}; element < size; ++element)
@@ -31,3 +31,4 @@ int main() {
 	return 0;
 
 }
+
